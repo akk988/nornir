@@ -8,3 +8,5 @@ nr = InitNornir(
         },
     },
 )
+
+nr.config.runner.options["num_workers"]
